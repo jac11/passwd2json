@@ -27,6 +27,6 @@ try:
     with open('data_format.json','w') as json :
           json.write(json_format)
     print("script create file data_format.json contain all data information at same dir ")
-   except Exception :
+except Exception :
         print("Error Exit code 1")
     
