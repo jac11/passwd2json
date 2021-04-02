@@ -3,7 +3,7 @@
 import json
 
 try:
-    with open ("milestone_00.txt", "r") as dump:
+    with open ("/etc/passwd", "r") as dump:
          Dump_list = []
          Dump_Users = {
          "User_acconut": "", 
